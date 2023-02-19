@@ -5,11 +5,10 @@
 An app that simplifies road trip planning. A user will be able to:
 
 * plan a trip with multiple stops
-* invite friends to help plan the trip
 * create an itinerary
 * save pictures taken at different spots during the trip
-* provide recommendations for places to stop during the trip
-* include turn by turn navigation ???
+* create a packing list
+* be able to comment on your own and others trips
 
 ## Database (MySQL, Docker)
 
