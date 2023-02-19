@@ -1,0 +1,44 @@
+@url = http://localhost:8080
+
+POST {{url}}/authenticate HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "john@smith.com",
+  "password": "P@ssw0rd!"
+}
+
+####
+
+POST {{url}}/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "test@test.com",
+  "password": "password1!"
+}
+
+###
+
+GET {{url}}/profile/username/test@test.com HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET {{url}}/profile/profileId/1 HTTP/1.1
+Content-Type: application/json
+
+###
+
+POST {{url}}/profile/john@smith.com HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "profileId": 0,
+  "profilePhoto": "", 
+  "profileDescription": "", 
+  "name": "Test", 
+  "userId": 0,
+  "tripList": []
+}

@@ -1,0 +1,103 @@
+/* body {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-road-along-rocky-mountains-royalty-free-image-678834219-1550781633.jpg");
+  background-size: cover;
+} */
+
+.App {
+  text-align: center;
+}
+
+.map-container {
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+.mapWrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+#title-div {
+  margin-bottom: 50px;
+}
+
+#car-icon {
+  padding-left: 15px;
+}
+
+#home-main {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/country-road-along-rocky-mountains-royalty-free-image-678834219-1550781633.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#trip-main {
+  height: 100vh;
+  background-color: white;
+}
+
+#main-title {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 4em;
+  /* font-weight: normal; */
+  color: orange;
+  margin-bottom: 0;
+  margin-top: 3em;
+}
+
+.navbar-links {
+  color: white !important;
+}
+
+#profile-view {
+  background-color: white;
+  height: 100vh;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+#profile-name {
+  font-family: "Roboto Mono", monospace;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.profile-sub-title {
+  font-family: "Roboto Mono", monospace;
+}
+
+#profile-form {
+  background-color: white;
+  height: 100vh;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+#end-date-trip {
+  padding-left: 60px;
+}
+
+#not-found {
+  background-color: white;
+  height: 100vh;
+}
+
+.password-input-div {
+  margin-bottom: 2rem;
+}
